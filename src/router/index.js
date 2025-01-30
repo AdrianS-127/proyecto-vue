@@ -8,15 +8,20 @@ const router = createRouter({
     //   name: 'home',
     //   component: HomeView,
     // },
-        {
-        path: '/Contador',
-        name: 'Contador',
-        component: () => import('../components/Contador.vue'),
+    {
+      path: '/Registrar',
+      name: 'Registrar',
+      component: () => import('../modules/registro/views/Registrar.vue'),
+    },
+    {
+      path: '/Contador',
+      name: 'Contador',
+      component: () => import('../modules/contador/components/Contador.vue'),
     },
     {
       path: '/ListDeTareas',
       name: 'ListaDeTareas',
-      component: () => import('../components/ListDeTareas.vue'),
+      component: () => import('../modules/listaDeTareas/components/ListDeTareas.vue'),
   },
   ],
 })
