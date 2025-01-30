@@ -1,4 +1,8 @@
-# .
+## Autor
+- Nombre: Adrian Eduardo Santos Rosales
+- Email: a23311062@uthermosillo.edu.mx 
+- GitHub: [@AdrianS-127](https://github.com/AdrianS-127/proyecto-vue)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
